@@ -19,4 +19,13 @@ function johnLennonFacts(facts){
   return x
 }
 
-function iLoveTheBeatles()
+function iLoveTheBeatles(n){
+  var i = 0
+  var x = []
+  do {
+    x[i] = "I love the Beatles!"
+    n++
+    i++
+  } while (n < 15);
+  return x
+}
